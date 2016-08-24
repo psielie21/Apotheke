@@ -1,7 +1,7 @@
 body {
 	font-family: Merriweather, Helvetica, Arial, serif;
     font-size: 16px;
-    line-height: 1.375;
+    //line-height: 1.375;
     color: rgb(85, 85, 85);
 }
 
@@ -10,6 +10,7 @@ body {
 	color:rgb(85, 85, 85);
 	width:33%;
 	float:left;
+	margin-bottom: 100px;
 }
 .effect:hover {
 	 filter: brightness(0.6);
@@ -33,6 +34,7 @@ body {
 	font-size:30px;
 	transition: font-size 0.35s;
 	color: #000;
+	font-weight:normal;
 }
 .effect:hover h2 {
 	font-size:34px;
@@ -47,6 +49,7 @@ body {
   transform: scale(0,1);
   color: #000;
   font-size: 24px;
+  margin-bottom:0px;
 }
 .effect:hover p {
 opacity: 1;
@@ -117,6 +120,7 @@ opacity: 1;
 		width:100%;
 		max-width:100%;
 		max-height:100%;
+		margin-bottom: 0px;
 	}
 	.effect img {
 		max-width: 100%;
@@ -133,6 +137,11 @@ opacity: 1;
 	}
 }
 
+
+
+
+
+/*********************************************************** UNNÖTIG ***********************************/
 .hovereffect {
   width: 100%;
   height: 100%;
